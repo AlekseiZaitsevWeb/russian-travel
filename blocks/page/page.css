@@ -1,5 +1,6 @@
 .page {
   background-color: #2A2C2F;
+  height: 100%;
   font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
   color: #fff;
@@ -9,7 +10,6 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  height: 100vh;
 }
 
 section,
