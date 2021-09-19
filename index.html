@@ -10,13 +10,14 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="root">
+  <!-- page -->
   <div class="page centered-block">
     <!-- header -->
     <header class="header flex-row centered-block">
       <img class="header__logo" src="./images/header-logo.svg" alt="Путешествие по России">
       <ul class="header__lang-links flex-row">
-        <li class="header__lang-link header__lang-link_active">Ru</li>
-        <li class="header__lang-link">En</li>
+        <li><a href="" class="header__lang-link link header__lang-link_active">Ru</a></li>
+        <li><a href="" class="header__lang-link link">En</a></li>
       </ul>
     </header>
     <!-- end header -->
@@ -68,7 +69,7 @@
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__link">
               <p class="place__link-title">URL</p>
-              <a href="#" class="place__link-text">park-kosa.ru</a>
+              <a href="http://park-kosa.ru" class="place__link-text link">park-kosa.ru</a>
             </div>
             <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
             <div class="place__text flex-column">
@@ -82,7 +83,7 @@
             <h2 class="place__title">Кольский</h2>
             <div class="place__link">
               <p class="place__link-title">URL</p>
-              <a href="#" class="place__link-text">National Geographic</a>
+              <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link-text link">National Geographic</a>
             </div>
             <img class="place__image" src="./images/place-kolsky.jpg" alt="Кольский">
             <div class="place__text flex-column">
@@ -97,7 +98,7 @@
             <h2 class="place__title">Алтай</h2>
             <div class="place__link">
               <p class="place__link-title">URL</p>
-              <a href="#" class="place__link-text">Facebook</a>
+              <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link-text link">Facebook</a>
             </div>
             <img class="place__image" src="./images/place-altai.jpg" alt="Алтай">
             <div class="place__text flex-column">
@@ -112,7 +113,7 @@
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__link">
               <p class="place__link-title">URL</p>
-              <a href="#" class="place__link-text">https://vk.com/baikalmile</a>
+              <a href="https://vk.com/baikalmile" class="place__link-text link">https://vk.com/baikalmile</a>
             </div>
             <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
             <div class="place__text flex-column">
@@ -128,7 +129,7 @@
             <h2 class="place__title">Карелия</h2>
             <div class="place__link">
               <p class="place__link-title">URL</p>
-              <a href="#" class="place__link-text">http://vodlozero.ru/</a>
+              <a href="http://vodlozero.ru" class="place__link-text link">http://vodlozero.ru/</a>
             </div>
             <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
             <div class="place__text flex-column">
@@ -141,9 +142,9 @@
       </ul>
       <!-- end place -->
       <!-- cover -->
-      <a class="cover content__cover" href="#">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover content__cover">
         <img src="./images/cover-trains.jpg" alt="Поезда" class="cover__image">
-        <div class="cover__overlay"></div>
+        <div class="cover__overlay link"></div>
         <div class="cover__text">
           <h2 class="cover__title centered-block">До Байкала
             «на собаках»</h2>
@@ -157,55 +158,17 @@
     <footer class="footer page__footer">
       <nav>
         <ul class="footer__links">
-          <li><a href="#" class="footer__link">Карты</a></li>
-          <li><a href="#" class="footer__link">Погода</a></li>
-          <li><a href="#" class="footer__link">Расписание</a></li>
-          <li><a href="#" class="footer__link">Календарь</a></li>
-          <li><a href="#" class="footer__link">Путешествия</a></li>
+          <li><a href="https://yandex.ru/maps" class="footer__link link">Карты</a></li>
+          <li><a href="https://yandex.ru/pogoda" class="footer__link link">Погода</a></li>
+          <li><a href="https://rasp.yandex.ru" class="footer__link link">Расписание</a></li>
+          <li><a href="https://calendar.yandex.ru" class="footer__link link">Календарь</a></li>
+          <li><a href="https://travel.yandex.ru" class="footer__link link">Путешествия</a></li>
         </ul>
       </nav>
       <p class="footer__copyright">&copy; 2021. Алексей Зайцев</p>
     </footer>
-    <!-- end footer  -->
+    <!-- end footer -->
   </div>
-
-
-<!-- блок link для опасити ссылок -->
-
-
-
-
-    <!-- По умолчанию fieldset визуально сопровождается серой рамкой. Обычно она не нужна, поэтому её сбрасывают файлом normalize.css или CSS-свойством в таблице стилей. -->
-
-    <!-- Определите в макетах зоны, где подойдут гриды, а где вы продолжите использовать флексы. Сверстайте их под расширение десктопа. В следующих темах разберёмся в тонкостях настройки этих зон под адаптивный каркас сайта, но попробовать гриды в деле — бесценно уже сейчас. -->
-
-    <!-- В макетах есть зоны, где удобно настроить автоматический перенос грид-элементов. Найдите их и настройте инструментами repeat и auto-fit. Так эти зоны уже будут хорошо выглядеть при сжатии и расширении монитора. Останутся тонкие настройки, о которых поговорим дальше. -->
-
-    <!-- Но не используйте em и rem в наших проектных работах — жизнь программиста и так сложна. -->
-
-    <!-- Разрешение современных мониторов при одинаковых размерах может различаться в 4 раза. Если два экрана имеют одинаковые размеры, но у одного из них разрешение больше, то размер пикселя этого монитора меньше, чем у менее чёткого дисплея. И если на экране с бóльшим разрешением отрисовать элементы в их реальном размере в пикселях, они станут очень мелкими. -->
-<!-- Чтобы сохранить «физический» размер элементов, браузер увеличивает «пиксельный» размер каждого в 4 раза: вдвое по высоте и вдвое по ширине. То есть из каждого пикселя исходного изображения делает четыре. Для растровых изображений это критично: от подобного растягивания картинка неизбежно размоется. -->
-<!-- Поэтому растровые изображения следует готовить сразу в двойном размере — так они будут хорошо смотреться на любом экране. -->
-
-
-<!--
-  Если к этому моменту вы ещё не сверстали десктопное разрешение — самое время его доделать.А дальше — адаптировать все блоки, которые есть в макетах, для других разрешений.
-  Обратите внимание: в некоторых местах справиться с задачей очень просто — достаточно настроить перенос элементов при изменении разрешения экрана. В других местах потребуется тонкая отладка и контроль за поведением блоков на различных разрешениях экранов. Мы рекомендуем начинать с простых элементов: галереи изображений, карточек, шапки. Адаптировать их проще всего, так вы почувствуете уверенность в себе. После переходите к более сложным элементам, например, блоку places с фотографией и описанием конкретного места. -->
-
-
-  <!-- Проверьте, что элементы не «ломаются» и выглядят как в макете между точками перелома. Скажем, на ширине 470, 665, 999 или 1100 пикселей. Обращайте внимание на такие моменты:
-
-отступы между элементами и размеры шрифтов нередко изменяются;
-ради «резинового» эффекта нужно уметь отказаться от пиксельных значений ширин и высот в пользу относительных %, vw, vh, fr;
-если картинки занимают 100% ширины в макете, не бойтесь использовать для них CSS-свойство width: 100%. Для элементов img высота будет подсчитана автоматически;
-используйте CSS-функцию calc() — она годится не только для повторения арифметики, но и для расчёта размера колонок и ширины блоков;
-не усложняйте себе задачу, используйте пиксели для описания размеров шрифтов. Знание em и rem пригодится вам на собеседованиях или в компаниях с очень строгим код-стайлом;
-используйте десятичные дроби, когда задаёте интерлиньяж. Это хорошая практика;
-если замечаете, что изображения масштабируются непропорционально в точках перелома, вспомните свойство object-fit. Оно здорово помогает в таких ситуациях;
-не забудьте сгладить шрифты;
-используемые шрифты подключайте локально. -->
-
-
-
+  <!-- end page -->
 </body>
 </html>
