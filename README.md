@@ -20,6 +20,6 @@
 
 **Результат**
 
-* [Результат работы](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Результат работы](https://alekseizaitsevweb.github.io/russian-travel/index.html)
 
 ![Путешествия по России](https://github.com/AlekseiZaitsevWeb/russian-travel/blob/master/readme.png "Путешествия по России")
