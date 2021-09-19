@@ -1,4 +1,4 @@
-# Проект: Путешествие по России U+1F393
+# Проект: Путешествие по России :station: :station: :station:
 
 **Интро**
 
@@ -20,7 +20,6 @@
 
 **Результат**
 
-![Научиться учиться](https://github.com/AlekseiZaitsevWeb/russian-travel/blob/main/readme.png "Научиться учиться")
+* [Макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+![Путешествие по России](https://github.com/AlekseiZaitsevWeb/russian-travel/blob/main/readme.png "Путешествие по России")
