@@ -16,5 +16,5 @@
 section,
 div,
 ul, li, p, h1, h2, h3, h4, img, article, figure {
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
 }
