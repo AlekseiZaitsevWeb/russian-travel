@@ -1,24 +1,15 @@
 .content__intro {
-  width: 690px;
-  margin: 92px 0 92px 148px;
-}
-
-@media screen and (max-width: 1279px) {
-  .content__intro {
-    margin-left: 48px;
-  }
+  margin: 92px auto 92px;
 }
 
 @media screen and (max-width: 1023px) {
   .content__intro {
-    width: fit-content;
-    margin: 88px 24px 88px;
+    margin: 88px auto 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .content__intro {
-    width: fit-content;
-    margin: 64px 16px 64px;
+    margin: 64px auto 64px;
   }
 }

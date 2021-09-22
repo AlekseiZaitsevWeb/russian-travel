@@ -1,0 +1,20 @@
+.place__items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__items {
+    row-gap: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .plaplace__itemsce {
+    row-gap: 50px;
+  }
+}

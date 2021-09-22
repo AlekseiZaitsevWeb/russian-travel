@@ -2,4 +2,25 @@
   font-size: 16px;
   line-height: 1.63;
   margin: 40px 0 0;
+  max-width: 690px;
+}
+
+@media  screen and (max-width: 1023px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media  screen and (max-width: 930px) {
+  .intro__text {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
